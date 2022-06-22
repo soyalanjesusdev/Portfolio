@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Works from "./components/Works";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -42,7 +44,9 @@ function App() {
           <Hero />
           <Services />
           <Works/>
-        </div>
+          <About/>
+          <Footer/>
+                  </div>
       </div>
     </>
   );

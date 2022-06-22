@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@icon/ionicons": "^5.4.0-alpha.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icon": "^1.0.0",

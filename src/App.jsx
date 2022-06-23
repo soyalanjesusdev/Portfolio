@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Works from "./components/Works";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import ContacMe from "./components/ContacMe";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -43,6 +44,7 @@ function App() {
           <Services />
           <Works />
           <About />
+          <ContacMe/>
           <Footer />
         </div>
       </div>

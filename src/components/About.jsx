@@ -7,7 +7,7 @@ function About() {
       <div className="w-full md:w-6/12">
         <SectionTitle>About Me</SectionTitle>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-        Soy Alan MERN Stack Software developer y Digital Marketing Advisor con fuertes habilidades de resolución de problemas, motivado y apasionado por el aprendizaje continuo. Actualmente me desempeño como Developer en Bession también imparto mentorías en el área de desarrollo web y el marketing digital de forma voluntaria 
+        I am Alan MERN Stack Software developer and Digital Marketing Advisor with strong problem solving skills, motivated and passionate about continuous learning. I currently work as a Developer at Bession and I also provide mentoring in the area of web development and digital marketing on a volunteer basis. 
 
         </p>
         <a href="mailto:alanjesusblanco@gmail.com"

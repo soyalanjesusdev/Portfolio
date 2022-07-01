@@ -16,7 +16,7 @@ export default [
   },
   {
     title: "Web Development",
-    icon: <FaWordpressSimple className="w-full h-full" />,
+    icon: <FaWordpressSimple className="w-full h-full " />,
     description: "As a WordPress programmer, I know the code that makes up the system. I am an expert in design, in the case of WordPress",
   }, {
     title: "Data Analyst",

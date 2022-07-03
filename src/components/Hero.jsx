@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
@@ -8,8 +9,17 @@ function Hero() {
           Hi, This is Alan
         </h1>
         <p className=" text-md md:text-xl max-w-md mb-3 text-gray-600 dark:text-gray-300 ">
-          {" "}
-          MERN Stack Developer and Digital Marketing Advisor{" "}
+          <Typewriter
+            options={{
+              strings: [
+                "MERN Stack Developer",
+                "Digital Marketing Advisor",
+                "Web Designer",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </p>
         <a
           href="#works"
